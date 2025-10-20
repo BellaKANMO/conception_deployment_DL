@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Utilisateur/Desktop/TP/mlruns/0/models/m-c5e6859c055841698b2ac7d709317cbc/artifacts
+creation_timestamp: 1760975140847
+experiment_id: '0'
+last_updated_timestamp: 1760975161947
+model_id: m-c5e6859c055841698b2ac7d709317cbc
+model_type: null
+name: mnist-model
+source_run_id: cb4a80dadcef4a13abb17a0a136a616b
+status: 2
+status_message: null
