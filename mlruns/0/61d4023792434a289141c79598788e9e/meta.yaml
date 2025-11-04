@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Utilisateur/Desktop/TP/mlruns/0/61d4023792434a289141c79598788e9e/artifacts
+end_time: 1762247419379
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61d4023792434a289141c79598788e9e
+run_name: Optimizer_Comparison_RMSprop
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762247371915
+status: 3
+tags: []
+user_id: Quenn Bella

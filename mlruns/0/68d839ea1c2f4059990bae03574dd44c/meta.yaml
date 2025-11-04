@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Utilisateur/Desktop/TP/mlruns/0/68d839ea1c2f4059990bae03574dd44c/artifacts
+end_time: 1762247180558
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 68d839ea1c2f4059990bae03574dd44c
+run_name: Optimizer_Comparison_SGD_with_momentum
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762247180351
+status: 3
+tags: []
+user_id: Quenn Bella

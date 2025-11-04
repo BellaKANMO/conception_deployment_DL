@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Utilisateur/Desktop/TP/mlruns/0/1aa1b82897ae496d992b63e262e5d9e2/artifacts
+end_time: 1762247470549
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1aa1b82897ae496d992b63e262e5d9e2
+run_name: Optimizer_Comparison_Adam
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762247419420
+status: 3
+tags: []
+user_id: Quenn Bella
