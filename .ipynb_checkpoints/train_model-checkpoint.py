@@ -16,18 +16,18 @@ x_test = x_test.reshape((10000, 784))
 # construction du modele
 model = keras.Sequential(
     [
-        keras.layers.Dense(512, activation='relu', input_shape=(784,)),
-        keras.layers.Dropout(0.2),
-        keras.layers.Dense(10, activation='softmax')
+        keras.layers.Dense(512, activation='relu', input_shape=(784,)), #Une couche 'Dense' est une couche dont chaque neuronne est relié à tous les neuronnes de la couche précédente 
+        keras.layers.Dropout(0.2), #Désactive 20% d'activation
+        keras.layers.Dense(10, activation='softmax') #Sigmoid si c'etait 2 classes
     ]
 )
 
 #Compilation du modele
 modele.compile(
     optimizer="adam",
-    loss = "sparse_categorical_crossentropy",
+    loss = "sparse_categorical_crossentropy", #Ne fonctionne que pour softmax
     metrics = ["accuracy"]
-)
+) #Avec tf on ne peut pas faire le gridsearch, mais mlflow est une bonne alternative pour la tracabilite des resultats pour choisir le meilleur modèle 
 
 #Entrainement du modele
 history = model.fit(
